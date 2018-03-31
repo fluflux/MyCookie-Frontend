@@ -1,0 +1,35 @@
+html {
+	background-image: url("https://cdn.pixabay.com/photo/2017/06/03/10/44/fantasy-2368432_1280.jpg");
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+div {
+	width:200px;
+	margin: auto;
+	align-items: center;
+	padding: 300px 0;
+}
+a {
+	text-decoration: none;
+}
+button {
+	border-radius:10%;
+	box-shadow:none;
+	font-family: 'Mystery Quest', cursive;
+	font-size:2em;
+}
+.button {
+	background-color: black;
+	border: solid black 2px;
+	color:white;
+	transition:all 0.4s;
+	cursor: pointer
+}
+.button:hover {
+	transform: scale(1.2);
+	box-shadow:
+	0px 0px 5px 5px;
+
+}
