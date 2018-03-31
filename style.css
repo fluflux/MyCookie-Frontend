@@ -1,7 +1,7 @@
 html {
 	background-image: url("space2.jpeg");
 	overflow: hidden;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-size: cover;
 
 }
