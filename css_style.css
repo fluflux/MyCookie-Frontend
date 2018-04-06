@@ -201,8 +201,8 @@ body {
 
 
 .button {
-background-color: #CB43CB;
-border:solid white 1px;
+background-color: #FD1C27;
+border: solid 4px #FC2C11;
 color: white;
 font-family: 'Open Sans Condensed', sans-serif;
 font-size: 1.4em;
@@ -221,6 +221,7 @@ transition: all 0.3s;
   display: flex;
   justify-content: center;
   justify-content: space-between;
+  justify-content: space-around;
   margin: 1em;
 }
 /*
