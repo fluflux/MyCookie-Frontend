@@ -10,7 +10,7 @@ body {
 }
 
 .taskbar {
-	background-color:rgb(200, 240,200);
+	background: linear-gradient(to right,#2EC42E, #5FE8A2) ;
 	border:none;
 	padding: 0px 0px 0px -15px;
 	display: flex;
@@ -28,7 +28,7 @@ body {
 .taskbarbutton {
 	border: none;
 	/*background-color: rgb(150, 200,190);*/
-	background-color: rgb(200, 240,200);
+	background-color:transparent;
 	padding: 10px;
 	margin:0px;
 }
@@ -59,7 +59,7 @@ body {
   box-sizing: content-box;
   margin: auto;
   margin-bottom: 3em;
-  background-color: #7BAED5;
+  background: linear-gradient(to bottom,#5CE0E0, #5555D3) ;
   border: black solid 1px;
   box-shadow: 0px 5px 10px 4px;
 }
@@ -291,7 +291,16 @@ transition: all 0.3s;
 
 .labeltitel2 {
   margin: 1px 37%;
-  color: green;
+  color: #F69068;
+  font-family: 'Hi Melody', cursive;
+  font-family: 'Merienda', cursive;
+  font-weight: : bold;
+  font-size: 1.4em
+}
+
+.labeltitel3 {
+  margin: 1px 37%;
+  color: #F5B739;
   font-family: 'Hi Melody', cursive;
   font-family: 'Merienda', cursive;
   font-weight: : bold;
@@ -300,7 +309,7 @@ transition: all 0.3s;
 
 
 .labelcontent {
-  background-color: green;
+   background: linear-gradient(green, #F5B739);
   padding: 2em;
   width: 19em;
   height: 10em;
@@ -311,16 +320,17 @@ transition: all 0.3s;
 }
 
 #labelcontentnuts {
-  background-color: #F69068;
+  background: linear-gradient(#F5B739, #F69068);
 }
 
 #labelcontentseeds {
-  background-color: #F69068;
+  background: linear-gradient(#F5B739, #F69068); 
 }
 
 #labelcontentambachtelijk {
   background-color: #F5B739;
   padding-right: 3em;
+  background: linear-gradient(#F69068, #F5B739);
 }
 
 
